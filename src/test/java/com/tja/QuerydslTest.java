@@ -31,7 +31,8 @@ public class QuerydslTest {
 	@BeforeClass
 	public  static void init() {
 		factory = Persistence.createEntityManagerFactory("myJPA");  
-		entityManager = factory.createEntityManager();
+		entityManager = factory.createEntityManager(); 
+		
 	          //构造集合数据
   		for(int i = 0 ;i<10;i++) {
   			entityManager.getTransaction().begin();   //开启事务
