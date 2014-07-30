@@ -10,6 +10,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 
+		/**  add some comment to test */
 		EntityManagerFactory factory = Persistence.createEntityManagerFactory("myJPA");  
          factory.close();
 	}
